@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: center;
+}
+#div{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-top: 3%;
+}
