@@ -34,7 +34,7 @@ for(let i = 0; i <= 10; i++){
 document.write(cores);
 
 function corAleatoria(){
-    let cor = Math.floor(Math.random() * 4);
+    let cor = Math.floor(Math.random() * 7);
        switch (cor) {
             case 0:
                return 'green'
@@ -44,5 +44,11 @@ function corAleatoria(){
                return 'yellow'
             case 3:
                 return 'blue'
+            case 4:
+               return 'black'
+            case 5: 
+               return 'brown'
+            case 6:
+               return 'purple'
        }
 }
