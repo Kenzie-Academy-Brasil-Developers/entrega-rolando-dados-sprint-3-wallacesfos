@@ -5,6 +5,7 @@ body{
     background: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    background-color: yellow;
 }
 p{
     text-align: center;
@@ -14,4 +15,14 @@ p{
     flex-direction: column;
     background-color: lightgray;
     margin-top: 3%;
+}
+
+
+@media (min-width: 769px){
+    body {
+        background-color: rosybrown;
+    }
+    #div{
+        background-color: aqua;
+    }
 }
